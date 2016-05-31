@@ -42,6 +42,7 @@ If you're looking for other projects to contribute to please see the
 * [Metaprogramming](#metaprogramming)
 * [Suggested Alternatives](#suggested-alternatives)
 * [Tools](#tools)
+* [Misc](./misc.md)
 
 
 ## Source Code Layout
@@ -380,7 +381,7 @@ def some_function(_),
   defmodule Somemodule do
     ...
   end
-  
+
   defmodule Some_Module do
     ...
   end
