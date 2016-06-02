@@ -4,6 +4,7 @@
 - Good
 ```elixir
   @spec some_func(term, term)::{atom, binary}
+  @doc "Description of what this function does"
   def some_func(parameter_1, parameter_2), do: blah, blah, blah
 ```
 - Bad
@@ -39,4 +40,24 @@
 - Bad
 ```elixir
   def some_func(term)::map | tuple
+```
+
+## Docs for function
+- Good
+```elixir
+@doc """
+This function does blah blah blah, given parameter1::type, parameter2::type
+
+# Type can be ignored if can be inferred
+Returns `:return_value`
+
+## Examples
+  # if doctest is possible
+  iex> SomeModule.this_function
+  :return_value
+
+  # if doctest is not available
+  SomeModule.this_function
+  => :return_value
+"""
 ```
