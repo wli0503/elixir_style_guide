@@ -46,7 +46,7 @@
 - Good
 ```elixir
 @doc """
-This function does blah blah blah, given parameter1::type, parameter2::type
+This function does blah blah blah, given `parameter1::type`, `parameter2::type`
 
 # Type can be ignored if can be inferred
 Returns `:return_value`
