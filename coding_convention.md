@@ -52,12 +52,14 @@ This function does blah blah blah, given `parameter1::type`, `parameter2::type`
 Returns `:return_value`
 
 ## Examples
+
   # if doctest is possible
-  iex> SomeModule.this_function
-  :return_value
+    iex> SomeModule.this_function
+    :return_value
 
   # if doctest is not available
-  SomeModule.this_function
-  => :return_value
+    SomeModule.this_function
+    => :return_value
+
 """
 ```
