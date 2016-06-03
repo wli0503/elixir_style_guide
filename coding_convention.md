@@ -43,7 +43,7 @@
 ```
 
 ## Docs for function
-- Good
+- All public facing functions & Apis should be documented as below
 ```elixir
 @doc """
 This function does blah blah blah, given `parameter1::type`, `parameter2::type`
